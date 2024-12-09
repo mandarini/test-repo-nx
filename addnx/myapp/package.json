@@ -1,0 +1,10 @@
+{
+  "name": "@addnx/myapp",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "name": "myapp",
+    "projectType": "application",
+    "sourceRoot": "myapp/src"
+  }
+}

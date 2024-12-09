@@ -2,5 +2,12 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./myapp-e2e"
+    },
+    {
+      "path": "./myapp"
+    }
+  ]
 }
