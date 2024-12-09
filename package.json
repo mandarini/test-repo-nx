@@ -1,8 +1,13 @@
 {
   "name": "my-repo",
   "version": "1.0.0",
-  "description": "my test repo",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "myapp-e2e": "^0.0.1",
+    "myapp2-e2e": "^0.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
