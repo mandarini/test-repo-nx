@@ -8,6 +8,15 @@
     },
     {
       "path": "./myapp"
+    },
+    {
+      "path": "./myapp2-e2e"
+    },
+    {
+      "path": "./myapp2"
+    },
+    {
+      "path": "./my-lib-1"
     }
   ]
 }

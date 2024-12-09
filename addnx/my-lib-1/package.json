@@ -1,0 +1,19 @@
+{
+  "name": "@addnx/my-lib-1",
+  "nx": {
+    "name": "my-lib-1",
+    "projectType": "library",
+    "sourceRoot": "my-lib-1/src"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "main": "./dist/index.js"
+}
