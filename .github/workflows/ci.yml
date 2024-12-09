@@ -32,7 +32,7 @@ jobs:
           node-version: 20
           cache: 'npm'
        
-      - run: npm ci --legacy-peer-deps
+      - run: npm i --legacy-peer-deps
         working-directory: addnx
       - uses: nrwl/nx-set-shas@v4
 
